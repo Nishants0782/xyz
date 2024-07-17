@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    width: 200px;
+    float:left;
+    /* border:2px solid black; */
+    background-color: white;
+    margin-left: 25px;
+    margin-top:15px;
+}
+ul{
+    background-color:white;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    /* border:2px solid black; */
+    height:80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+} 
+ul li{
+    float:left;
+    padding-left: 20px;
+    font-family: "Gotham", sans-serif;
+   
+}
+.active {
+   
+    margin-left: 30px;
+    
+}
+.box{
+    color: white;
+    float:right;
+    margin-right: 50px;
+    padding-left:  20px;
+    padding-right: 20px;
+    min-height:25px;
+    border:1px solid #0590c8;
+    margin-top: 26px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding-top:  7px;
+    font-family: "Gotham", sans-serif;
+    border-radius: 20px;
+    background-color: #0590c8;
+    
+} 
+/* div{
+    padding-right:  20px;
+    padding-left:  20px;
+    min-height:  50px;
+    border:2px solid black;
+} */
+
+.box1{
+    float:right;
+    margin-right:10px;
+    padding-right: 10px;
+} 
+
+
+ul li a{
+    display:block;
+    padding:35px 0px;
+    text-decoration: none; 
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+#first{
+   width: 20px;
+   margin-top: 32px;
+}
+
+/* #row{
+   width:100%;
+   } */
+/* body{
+    width: 100%;
+    background-image: url("boston-dynamics-spot.jpg");
+    position: absolute;
+    top:
+}   
+     */
+#background-image{
+    background: url("boston-dynamics-spot.jpg");
+    width:100vw;
+    height:calc(100vh - 83px);
+    background-repeat: no-repeat;
+    position:relative;
+    top:83px;
+    background-size: 100% 100%;
+    
+}
+p{
+    color:white;
+    font-size:50px;
+    font-weight: 700px;
+    margin-left:100px;
+    padding-left: 50px;
+    font-family:Gotham,sans-serif;
+}
+#para{
+    color:white;
+    font-size:20px;
+    font-weight: 700px;
+    margin-left:100px;
+    padding-left: 50px;
+    font-family:Gotham,sans-serif;
+
+}
